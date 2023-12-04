@@ -46,7 +46,6 @@ main {
     margin: 10px;
     display: flex;
     justify-content: space-between;
-    flex-warp: warp;
 }
 form {
     display: flex;
