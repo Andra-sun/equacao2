@@ -191,4 +191,13 @@ cores {
         width: auto;
         height: auto;
     }
+
+    @keyframes slideIn {
+        from {
+            transform: translateY(0);
+        }
+        to {
+            transform: translateY(10%);
+        }
+    }
 }
