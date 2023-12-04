@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h2 class="titu">
+                Equação <br />
+                Segundo grau
+            </h2>
+            <div class="menuHome">
+                <button class="home">
+                    <img
+                        src="https://cdn-icons-png.flaticon.com/128/10381/10381028.png"
+                        alt="hamburger-icon"
+                    />
+                </button>
+                <div class="selecao">
+                    <h4>Outros sites:</h4>
+                    <h5>site1</h5>
+                    <h5>site2</h5>
+                    <h5>site3</h5>
+                </div>
+            </div>
+
+        </header>
+        <main>
+            <form action="pegar">
+                <label for="pegara">a</label
+                ><input class="inpNum" name="pegara" type="number" />
+
+                <label for="pegarb">b</label
+                ><input class="inpNum" name="pegarb" type="number" />
+
+                <label for="pegarc">c</label
+                ><input class="inpNum" name="pegarc" type="number" />
+                <br />
+                <label class="cexist" for="existC"
+                    >falta alguma letra?
+                    <input type="checkbox" name="existC" id="exist"
+                /></label>
+
+                <button class="calcular"><h2>calcular</h2></button>
+            </form>
+            <h1 id="middle">Resultado-></h1>
+            <article>
+                <section class="things">
+                    <h3>delta</h3>
+                    <h3>x1</h3>
+                    <h3>x2</h3>
+                </section>
+                <section class="result">
+                    <h3 class="text-resultDeta">o resultado de delta</h3>
+                    <h3 class="text-resultx1">o resultado de x1</h3>
+                    <h3 class="text-resultx2">o resultado de x2</h3>
+                </section>
+            </article>
+        </main>
+        <script src="menu.js"></script>
+    </body>
+</html>
