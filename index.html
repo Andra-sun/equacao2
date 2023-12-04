@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,8 +9,8 @@
     <body>
         <header>
             <h2 class="titu">
-                Equação <br />
-                Segundo grau
+                Equação do <br />
+                <span id="segundo">Segundo</span> Grau
             </h2>
             <div class="menuHome">
                 <button class="home">
@@ -26,18 +26,17 @@
                     <h5>site3</h5>
                 </div>
             </div>
-
         </header>
         <main>
-            <form action="pegar">
+            <form action="pegar" class="form">
                 <label for="pegara">a</label
-                ><input class="inpNum" name="pegara" type="number" />
+                ><input class="inpNum" id="a" name="pegara" type="number" />
 
                 <label for="pegarb">b</label
-                ><input class="inpNum" name="pegarb" type="number" />
+                ><input class="inpNum" id="b" name="pegarb" type="number" />
 
                 <label for="pegarc">c</label
-                ><input class="inpNum" name="pegarc" type="number" />
+                ><input class="inpNum" id="c" name="pegarc" type="number" />
                 <br />
                 <label class="cexist" for="existC"
                     >falta alguma letra?
@@ -46,7 +45,7 @@
 
                 <button class="calcular"><h2>calcular</h2></button>
             </form>
-            <h1 id="middle">Resultado-></h1>
+            <h1 id="middle">Resultado</h1>
             <article>
                 <section class="things">
                     <h3>delta</h3>
@@ -61,5 +60,7 @@
             </article>
         </main>
         <script src="menu.js"></script>
+        <script src="calculadora.js"></script>
+        <script src="mobile.js"></script>
     </body>
 </html>
