@@ -194,10 +194,10 @@ cores {
 
     @keyframes slideIn {
         from {
-            transform: translateY(0);
+            transform: translateX(30%);
         }
         to {
-            transform: translateY(10%);
+            transform: translateX(0);
         }
     }
 }
