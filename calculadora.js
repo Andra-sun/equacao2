@@ -45,4 +45,5 @@ function formatarNumero(numero) {
     } else {
         return numero.toFixed(3);
     }
-};
+}
+
