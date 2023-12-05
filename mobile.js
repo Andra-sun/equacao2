@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (larguraTela > 767) {
             document.getElementById("middle").innerHTML = "Resultado->";
         } else {
-            document.getElementById("middle").innerHTML = "Resultado";
+            document.getElementById("middle").innerHTML = "Resultado↓";
         }
     }
     verificarLarguraTela();
